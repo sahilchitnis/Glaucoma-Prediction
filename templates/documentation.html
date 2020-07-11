@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Documentation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap core CSS -->
+         <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    </head>
+    <body class="text-center">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark justify-content-center" style=" padding-bottom: 0px;padding-top: 0px;">
+                <a class="navbar-brand " href="index">VisionOp</a>
+                <ul class="navbar-nav nav-masthead">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="index">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="documentation">Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="help">Help</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="about_us">About Us</a>
+                    </li>                    
+                </ul>
+            </nav>
+        </header>
+        <div class="container" style="padding-top: 90px; padding-bottom: 90px;">
+            <div class="row">
+                <div class="align-content-center">
+                    <h2 class="featurette-heading">OPTICAL COHERENCE TOMOGRAPHY (OCT)</h2>
+                    <p class="lead">It is a non-invasive imaging test. OCT uses light waves to take cross-section pictures of your retina. This imaging technique helps Ophthalmologists to see clearly the distinctive layers of the retina and allows to map and measure their thickness.</p>
+                </div>
+                <div class="col-md-5 order-2">
+                    <figure class="figure">
+                        <img src="static/img/octm.jpg" class="figure-img img-fluid rounded" width="250" height="250">
+                        <figcaption class="figure-caption">OCT Machine.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-7 order-1">
+                    <figure class="figure">
+                        <img src="static/img/octl.png" class="figure-img img-fluid rounded" width="650" height="650">
+                        <figcaption class="figure-caption">OCT Layers.</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row">
+                <div class="align-content-center col-md-7">
+                    <h2 class="featurette-heading">FUNDUS PHOTOGRAPHY</h2>
+                    <p class="lead">It involves photographing the rear of an eye; also known as the fundus. The main structures that can be visualized on a fundus photo are the central and peripheral retina, optic disc and macula. Fundus photography can be performed with coloured filters, or with specialized dyes including fluorescein and indocyanine green. For this purpose the pupil is dilated with eye drops and a special camera called a fundus camera is used to focus on the fundus.</p>
+                    <!-- </div>
+                     <div class="col-md-5 order-2"> -->
+                    <figure class="figure">
+                        <img src="static/img/fm.jpg" class="figure-img img-fluid rounded" width="250" height="250">
+                        <figcaption class="figure-caption">Fundus Scaning Machine.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-5 order-1">
+                    <figure class="figure">
+                        <img src="static/img/funl.png" class="figure-img img-fluid rounded" width="500" height="500">
+                        <figcaption class="figure-caption">Fundus Photographs.</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row">
+                <div class="col-md-5 align-content-center order-2">
+                    <h2 class="featurette-heading">GLAUCOMA</h2>
+                    <p class="lead">Glaucoma is a group of eye diseases which result in damage to the optic nerve and cause vision loss. The most common type is open-angle glaucoma, in which the drainage angle for fluid within the eye remains open, with less common types including closed-angle glaucoma and normal-tension glaucoma. Opaque specks may occur in the lens in glaucoma, known as glaukomflecken.</p>
+
+                </div>
+                <div class="col-md-7 order-1">
+                    <figure class="figure">
+                        <img src="static/img/glfuns.png" class="figure-img img-fluid rounded" width="650" height="650">
+                        <figcaption class="figure-caption">Normal and Glaucomactous Fundus Scan</figcaption>
+                    </figure>
+                </div>
+
+            </div>
+            <div class="row"> <p class="lead">Open-angle glaucoma develops slowly over time and there is no pain. Peripheral vision may begin to decrease, followed by central vision, resulting in blindness if not treated. As it is painless and does not have acute attacks, thus the lack of clear symptoms make screening via regular eye check-ups important. The only signs are gradually progressive visual field loss, and optic nerve changes (increased cup-to-disc ratio on fundoscopic examination.</p>
+                <p class="lead">Closed-angle glaucoma can present gradually or suddenly. The sudden presentation may involve severe eye pain, blurred vision, mid-dilated pupil, redness of the eye, very high intraocular pressure (>30 mmHg), and nausea. Person suffers from vision loss once the person is affected by it. Ocular hypertension (increased pressure within the eye) is the most important risk factor in most glaucomas.</p></div>
+            <hr class="featurette-divider">
+            <div class="row">
+                <div class="col-md-6 align-content-center">
+                    <h2 class="featurette-heading">DRUSEN</h2>
+                    <p class="lead">Drusen, from the German word for node or geode (singular, "Druse"), are tiny yellow or white accumulations of extracellular material that build up between Bruch's membrane and the retinal pigment epithelium of the eye. The presence of a few small ("hard") drusen is normal with advancing age, and most people over 40 have some hard drusen. However, the presence of larger and more numerous drusen in the macula is a common early sign of age-related macular degeneration (AMD).</p>
+                </div>
+                <div class="col-md-6 order-2">
+                    <figure class="figure">
+                        <img src="static/img/drusen.jpg" class="figure-img img-fluid rounded" width="750" height="750">
+                        <figcaption class="figure-caption">Scan Showing Drusen.</figcaption>
+                    </figure>
+                </div>                
+            </div>
+            <hr class="featurette-divider">
+            <div class="row">
+                <div class="col-md-7 order-2 align-content-center ">
+                    <h2 class="featurette-heading">AGE-RELATED MACULAR DEGENERATION (AMD)</h2>
+                    <p class="lead">It also known as macular degeneration. It is a medical condition which may result in blurred or no vision in the center of the visual field.  It is common in older people. The severity is divided into early, intermediate, and late types. The late type is additionally divided into "dry" and "wet" forms with the dry form making up 90% of cases. Genetic factors and smoking are also one of the reasons that causes person to have AMD.</p>
+                    <p class="lead">There are not many symptoms in early stages but as time passes some people experience a gradual worsening of vision that may affect one or both eyes. While it does not result in complete blindness, loss of central vision can make it hard to recognize faces, drive, read, or perform other activities of daily life. Distorted vision in the form of metamorphopsia, in which a grid of straight lines appears wavy and parts of the grid may appear blank. There may also be central scotomas, shadows or missing areas of vision.</p>
+                </div>
+                <div class="col-md-5 order-1">
+                    <figure class="figure">
+                        <img src="static/img/amdf.jpg" class="figure-img img-fluid rounded" width="450" height="450">
+                        <figcaption class="figure-caption">Fundus scan showing AMD.</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 order-1">
+                    <p class="lead">Some of its symptoms are as follows:</p>
+                    <ul class="lead">
+                        <li>Slow recovery of visual function after exposure to bright light (photostress test)</li>
+                        <li>Visual acuity drastically decreasing (two levels or more), e.g.: 20/20 to 20/80</li>                        
+                        <li>Trouble discerning colors, specifically dark ones from dark ones and light ones from light ones</li>
+                        <li>A loss in contrast sensitivity</li>
+                    </ul>
+                </div>
+                <div class="col-md-7 order-2">
+                    <figure class="figure">
+                        <img src="static/img/amdoct.jpg" class="figure-img img-fluid rounded" width="650" height="650">
+                        <figcaption class="figure-caption">OCT scan showing AMD</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="row col-md-12">
+                <ul class="lead">
+                    <li>Blurred vision: Those with non-exudative macular degeneration may be asymptomatic or notice a gradual loss of central vision, whereas those with exudative macular degeneration often notice a rapid onset of vision loss (often caused by leakage and bleeding of abnormal blood vessels).</li>
+                    <li>Formed visual hallucinations and flashing lights have also been associated with severe visual loss secondary to wet AMD </li>            
+                </ul>
+            </div>
+
+            <hr class="featurette-divider">
+            <div class="row">
+                <div class="col-md-7 align-content-center">
+                    <h2 class="featurette-heading">CHOROIDAL NEOVASCULARIZATION</h2>
+                    <p class="lead">CNV can occur rapidly in individuals with defects in Bruch's membrane, the innermost layer of the choroid. It is also associated with excessive amounts of vascular endothelial growth factor (VEGF). As well as in wet macular degeneration, CNV can also occur frequently with the rare genetic disease pseudoxanthoma elasticum and rarely with the more common optic disc drusen. CNV has also been associated with extreme myopia or malignant myopic degeneration, where in choroidal neovascularization occurs primarily in the presence of cracks within the retinal (specifically) macular tissue known as lacquer cracks.</p>
+
+                </div>
+                <div class="col-md-5 order-2">
+                    <figure class="figure">
+                        <img src="static/img/cnv.png" class="figure-img img-fluid rounded" width="450" height="450">
+                        <figcaption class="figure-caption">Scan Showing CNV.</figcaption>
+                    </figure>
+                </div>                
+            </div>
+            <div class="row">
+                <p class="lead">CNV can create a sudden deterioration of central vision, noticeable within a few weeks. Other symptoms which can occur include colour disturbances, and metamorphopsia (distortions in which straight lines appears wavy). Hemorrhaging of the new blood vessels can accelerate the onset of symptoms of CNV. CNV may also include the feeling of pressure behind your eye.</p>
+            </div>
+            <hr class="featurette-divider">
+        </div>
+
+        <!-- FOOTER -->            
+        <footer >
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2019-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"  crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/static/umd/popper.min.js"  crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+    </body>
+</html>

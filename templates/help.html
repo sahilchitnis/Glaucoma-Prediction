@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Help</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap core CSS -->
+         <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    </head>
+    <body class="text-center">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark justify-content-center" style=" padding-bottom: 0px;padding-top: 0px;">
+                <a class="navbar-brand " href="index">VisionOp</a>
+                <ul class="navbar-nav nav-masthead">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="index">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="documentation">Documentation</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="help">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="about_us">About Us</a>
+                    </li>                    
+                </ul>
+            </nav>
+        </header>
+        <div class="container" style="padding-top: 90px; padding-bottom: 90px;">
+            <h2 class="featurette-heading" style="padding-bottom: 30px;">STEPS TO FOLLOW :</h2>
+            <div class="row">
+                <div class="align-content-center">                    
+                    <p class="lead">1.	On the home page select the type of scan you want to upload, by selecting the button of that paticular scan.</p>              
+                    <figure class="figure">
+                        <img src="static/img/help1.png" class="figure-img img-fluid rounded" width="950" height="950">
+                    </figure>
+                    <hr class="featurette-divider">
+                    <p class="lead">2.	Then you would be directed to the prediction page.</p>
+                    <figure class="figure">
+                        <img src="static/img/help2.png" class="figure-img img-fluid rounded" width="750" height="750">
+                    </figure>
+                    <hr class="featurette-divider">
+                    <p class="lead">3.	On prediction page browse the scan from your device and upload it then click the ‘Predit’ button.(please upload the specified scan only). </p>
+                    <figure class="figure">
+                        <img src="static/img/help3.png" class="figure-img img-fluid rounded" width="750" height="750">
+                    </figure>
+                    <hr class="featurette-divider">
+                    <p class="lead">4.	Please wait till the process completes it would require some time and the possible outcome of the scan would be displayed on the screen.</p>
+                    <figure class="figure">
+                        <img src="static/img/help4.png" class="figure-img img-fluid rounded" width="750" height="750">
+                    </figure>
+                    <hr class="featurette-divider">
+                    <p class="lead">5.	 We have a documentation page where details regarding the diseases that our website could predict and the paticular scans that we are using is given.</p>
+                    <figure class="figure">
+                        <img src="static/img/help5.png" class="figure-img img-fluid rounded" width="750" height="750">
+                    </figure>
+                    <hr class="featurette-divider">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- FOOTER -->            
+        <footer class="fixed-bottom">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2019-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"  crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/static/umd/popper.min.js"  crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+    </body>
+</html>

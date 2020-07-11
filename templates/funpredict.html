@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Fundus Prediction</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap core CSS -->
+        <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+        <style>
+            * {
+                margin: auto;
+                padding: 0;
+                box-sizing: border-box;
+            }
+        
+        </style>
+    </head>
+    <body class="text-center">
+        <div class="very_main">
+
+            <header>
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark justify-content-center" style=" padding-bottom: 0px;padding-top: 0px;">
+                    <a class="navbar-brand " href="index">VisionOp</a>
+                    <ul class="navbar-nav nav-masthead">
+                        <li class="nav-item active">
+                            <a class="nav-link " href="index">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="documentation">Documentation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="help">Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="about_us">About Us</a>
+                        </li>                    
+                    </ul>
+                </nav>
+            </header>
+
+            <h2 style="padding-top: 90px;padding-bottom: 5px;font-family: Monotype Corsiva;">
+                Choose your Fundus Image to Predict your diagnosis.
+            </h2>
+            <div>
+                <form id="upload-file" method="post" enctype="multipart/form-data">
+                    <label for="imageUpload" class="upload-label btn btn-secondary">
+                        Select your Image
+                    </label>
+                    <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg,.TIFF, .ppm">
+                </form>
+                <div class="image-section" style="display:none;">
+                    <div class="img-preview">
+                        <div id="imagePreview">
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="upload-label btn btn-secondary" id="btn-predict">Predict!</button>
+                    </div>
+                </div>
+                <div class="loader" style="display:none;"></div>
+
+                <h3 id="result">
+                    <span> </span>
+                </h3>
+
+            </div>
+        </div>
+        <!-- FOOTER -->            
+        <footer class="fixed-bottom">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2019-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>      
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/static/umd/popper.min.js"  crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+        <script src="{{ url_for('static', filename='js/main.js') }}" type="text/javascript"></script>
+
+    </body>
+</html>
