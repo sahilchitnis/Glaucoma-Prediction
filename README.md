@@ -13,3 +13,4 @@ Run the text.py file from the folder.
 What it does:-
 * Predicts and Classifies diseases using OCT and Fundus images.
 * Glaucoma, AMD, Drusen, CNV are the diseases which can be predicted.
+* Contains all the documentation needed and how to navigate through website.
