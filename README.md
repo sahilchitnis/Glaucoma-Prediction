@@ -8,7 +8,7 @@ Pre-requisite:-
 5) Chrome or Firefox.
 
 How to run:- 
-Run the text.py file from the folder.
+Run the test.py file from the folder.
 
 What it does:-
 * Predicts and Classifies diseases using OCT and Fundus images.
